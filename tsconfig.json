@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
-    "target": "es2016" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
-    "module": "commonjs" /* Specify what module code is generated. */,
-    "rootDir": "./src" /* Specify the root folder within your source files. */,
-    "outDir": "./build" /* Specify an output folder for all emitted files. */,
-    "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */,
-    "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
-    "strict": true /* Enable all strict type-checking options. */,
-    "skipLibCheck": true /* Skip type checking all .d.ts files. */
+    "target": "es2016", // Define a versão da linguagem JavaScript para o código JavaScript emitido e inclui declarações de bibliotecas compatíveis.
+    "module": "commonjs", // Especifica o tipo de código de módulo gerado.
+    "rootDir": "./src", // Especifica a pasta raiz dentro dos seus arquivos de origem.
+    "outDir": "./build", // Especifica uma pasta de saída para todos os arquivos emitidos.
+    "esModuleInterop": true, // Emite JavaScript adicional para facilitar o suporte à importação de módulos CommonJS. Isso habilita 'allowSyntheticDefaultImports' para compatibilidade de tipos.
+    "forceConsistentCasingInFileNames": true, // Garante que a grafia esteja correta nas importações.
+    "strict": true, // Habilita todas as opções de verificação rigorosa de tipos.
+    "skipLibCheck": true // Ignora a verificação de tipos em todos os arquivos .d.ts.
   }
 }
