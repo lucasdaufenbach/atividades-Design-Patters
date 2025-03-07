@@ -10,18 +10,16 @@ class AtividadeExecutor {
         });
     }
 
-    // Método para iniciar o sistema de execução
     public iniciar() {
-        console.log("Bem-vindo ao sistema de atividades!");
+        console.log("Lista a ser corrigida = 1");
         this.executarAtividade();
     }
 
-    // Método para perguntar qual atividade o professor deseja executar
     private executarAtividade() {
         this.rl.question(
-            "Escolha a atividade para executar (1-9) ou digite 'sair' para encerrar: ",
+            "Escolha a atividade para executar (1-9) ou digite 'x' para encerrar: ",
             async (at) => {
-                if (at.toLowerCase() === "sair") {
+                if (at.toLowerCase() === "x") {
                     console.log("Programa encerrado.");
                     this.rl.close();
                     return;
@@ -32,7 +30,6 @@ class AtividadeExecutor {
         );
     }
 
-    // Método para executar a atividade selecionada
     private async executarAtividadeSelecionada(at: string) {
         try {
             const atividade = `./listaUm/at${at}/Resolucao`;
@@ -42,7 +39,7 @@ class AtividadeExecutor {
             console.log("Atividade não encontrada ou erro ao executar.");
         }
 
-        // Chama novamente a função para continuar executando o loop
+        // loop
         this.executarAtividade();
     }
 }
