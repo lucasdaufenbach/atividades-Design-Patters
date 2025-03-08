@@ -1,5 +1,5 @@
 # Atividades Design Patterns
-Este repositório contém um sistema de atividades desenvolvido para auxiliar professores na execução e visualização de atividades relacionadas a Design Patterns. O sistema foi construído utilizando TypeScript e Node.js, com uma estrutura baseada em Programação Orientada a Objetos (POO).
+Este repositório contém um sistema de execução e visualização de atividades relacionadas a diciplina Design Patterns do meu curso de Engenharia de Software. O sistema foi construído utilizando TypeScript e Node.js, com uma estrutura baseada em Programação Orientada a Objetos (POO).
 
 ---
 
