@@ -4,39 +4,39 @@ Este repositório contém um sistema de atividades desenvolvido para auxiliar pr
 ---
 
 ## Instalação
-Clone este repositório para sua máquina local:
+**Clone este repositório para sua máquina local:**
 
 ```
 git clone https://github.com/lucasdaufenbach/atividades-Design-Patters.git
 ```
-Navegue até o diretório do projeto:
+**Navegue até o diretório do projeto:**
 ```
 cd atividades-Design-Patters
 ```
 
-Instale as dependências do projeto:
+**Instale as dependências do projeto:**
 ```
 npm install
 ```
 
 ## Como usar
-Para executar o sistema de atividades, rode o seguinte comando:
+**Para executar o sistema de atividades, rode o seguinte comando:**
 ```
 npm run dev
 ```
 
-O sistema perguntará qual atividade deseja visualizar. Pode digitar o número da atividade (1-9) ou "x" para encerrar o programa.
+O sistema perguntará qual atividade deseja visualizar. Pode digitar o número da atividade (**1**-**9**) ou "**x**" para encerrar o programa.
 
 O sistema carregará o arquivo Resolucao.ts da atividade correspondente e executará o código dentro dele.
 
 ## Estrutura do Código
-Programação Orientada a Objetos (POO): O código foi estruturado utilizando POO, onde a classe ```AtividadeExecutor``` é responsável por gerenciar o fluxo de execução e a interação com o usuário.
+**Programação Orientada a Objetos (POO):** O código foi estruturado utilizando POO, onde a classe ```AtividadeExecutor```  é responsável por gerenciar o fluxo de execução e a interação com o usuário.
 
-Importação Dinâmica: As atividades são carregadas dinamicamente utilizando o ```import()``` do ES Modules, permitindo a execução do arquivo correto com base na escolha do professor.
+**Importação Dinâmica:** As atividades são carregadas dinamicamente utilizando o ```import()```  do ES Modules, permitindo a execução do arquivo correto com base na escolha do professor.
 
 ## Tecnologias Utilizadas
-TypeScript: A linguagem principal utilizada para a construção deste sistema.
+**TypeScript:** A linguagem principal utilizada para a construção deste sistema.
 
-Node.js: Ambiente de execução para o código TypeScript.
+**Node.js:** Ambiente de execução para o código TypeScript.
 
-TS-Node: Utilizado para executar os arquivos TypeScript diretamente no terminal sem a necessidade de transpilar para JavaScript previamente.
+**TS-Node:** Utilizado para executar os arquivos TypeScript diretamente no terminal sem a necessidade de transpilar para JavaScript previamente.
