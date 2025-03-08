@@ -25,9 +25,9 @@ npm install
 npm run dev
 ```
 
-O sistema perguntará qual atividade deseja visualizar. Pode digitar o número da atividade (**1**-**9**) ou "**x**" para encerrar o programa.
+O sistema o guiará entre os arquivos para executar cada atividade sem precisar modificar linhas do código. Mas sinta-se à vontade para acessar o arquivo que quiser.
 
-O sistema carregará o arquivo Resolucao.ts da atividade correspondente e executará o código dentro dele.
+O sistema carregará o arquivo ```Resolucao.ts```  da atividade correspondente e executará o código dentro dele.
 
 ## Estrutura do Código
 **Programação Orientada a Objetos (POO):** O código foi estruturado utilizando POO, onde a classe ```AtividadeExecutor```  é responsável por gerenciar o fluxo de execução e a interação com o usuário.
